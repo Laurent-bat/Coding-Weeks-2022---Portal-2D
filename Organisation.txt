@@ -1,0 +1,243 @@
+Potentiel Jeux
+-Portal 2D
+-Feu fille, eau garcon: multijoueur local (Probleme de commande?)
+-2048 duel (simple?)
+-Portal 2D coop asymétrique
+-GTA en 2D
+-Rogue like
+-Cand crush
+-2048 roguelike
+-Mario Party
+-Bataille naval
+-Age of War
+
+PORTAL 2D
+MVP
+Plateformer classique:
+-Camera sur le level entier
+-Un perso qui bouge (avec gravité + saut)
+-Un programme de colision
+-Porte de fin
+-Sprite (pixel art)
+(Le niveau est plat avec une porte de fin) 
+
+
+Potentiel Upgrade:
+-Animation
+-Blocs (avec gravité)
+-Blocs qui glisses
+-Bouton
+-Different mur (portals ou non)
+-Portals
+-Menu
+-Interface
+-Escape
+-music
+-Tourelle (+ecran de mort)
+-Multi (potentiellement asymétrique)
+-Level design etc...
+-Sauvegarde
+-Narrateur/ Antagonist (Glados)
+-Gateau
+-Ligne de visée
+
+
+Organisation de Git
+Branche:
+-->Personnage
+-Affichage
+-Sprites
+Perso
+-Programmes
+Deplacement
+Gravité
+Saut
+
+-->Background
+-Affichage
+-Sprites
+Ground
+Porte
+-Programmes
+Porte de fin
+
+
+--> Colision  
+-Programmes
+Colision (perso-bloc, cube-bloc etc)
+
+-->Interface
+-Affichage
+-Sprites
+-Programmes:
+Menu Echape
+You Win
+Commande Clavier
+
+
+-->Level Design (Work in progress)
+
+
+
+
+Matheo --> Sprites
+Wassim --> Colision + Programme superviser
+Gaspard + Laurent --> Interface
+Theo + Sylvain --> Personnage 
+
+
+                              								  A FAIRE - FIN DU JOUR 1
+
+
+
+
+interface : 
+	affichage.py :
+X		loading de sprite
+X		fonction affichage perso + affichage animations
+X		fonction affichage bloc
+X		fonction affichage porte + affichage etat
+X		fonction affichage bouton(dans le jeu)
+X		fonction affichage portail frame
+_		fontion de callback des boutons
+_		class Bouton
+_			variable hover
+_			methode affichage ()
+_			methode onclick parametre
+_			prise en compte de la couleur + de la transparence tout ca mis en option
+_        Bouton(x,y,sx,sy,couleur=,bgcolor,txt,color)
+_		affichage du rayon qui va du perso a la souris + relier au code de la collision avce les blocs
+entite :
+X	personnage.py + bloc.py -> entite.py
+X	entite.py :
+X		class personnage
+X		class bloc
+X		class bouton(dans le jeu)
+X		class porte
+X		class portail
+X		 -> class portail frame
+X	mise en place des animations
+autres :
+X	utils : 
+X		fonction loadlevel
+X		 -> json -> objects
+X		class rayon
+X	s'occuper des import
+design : 
+_	commencer le level design : level1 :  avec les murs, la porte, le placement du perso initial 
+X	sprites : 
+X		murs sipmle
+_		murs sans portail
+_		portail frame (anime )
+_		perso (anime : course, debout , direction droite gauche)
+X		porte (etat + anime)
+X		bouton (etat)
+
+
+SPRITES MANQUANT : 
+    NOM             - DESCRIPTION
+    cube            - cube porté par le joueur
+    bleu_(anim)     - portail bleu -> animé
+    orange_(anim)   - portail orange -> animé
+    running_(anim)  - perso qui court
+    stand           - perso debout
+    
+
+
+
+
+															A FAIRE - FIN DU JOUR 2
+
+
+BUGFIXE : 
+X	- collision 2 choses : traversé des blocs -> 4 separation , perso bloqué -> >= -> >
+	- touche : créer un getpressed manuelle en stockant les keydown et les pops quand on keyup
+
+Affichage : 
+	affichage du perso -> permettre de flip l'image 
+	affichage de l'arme
+	affichage du rayon
+	affichage du portail en fonction de l'angle
+	affichage du perso a travers le portail
+
+Interface : 
+	creation de plusieur menu et de Deplacement -> comment les coder ? 
+	Class message -> permet d'afficher un message sur l'ecran qui disparait tout seul
+	Class bouton_UI
+	donner les coordonnées de la souris au perso 
+
+ENtite : 
+X	class bloc -> permettre de changer le sprite depuis la definition du bloc : Bloc(x,y,sc,sy,sprite_id) + comment gerer ca
+X	class cube -> actualiser
+X	class perso -> ajouter une variable flip et la modifier quand on veut
+	class perso -> gérer le traversement d'un portail
+X	class arme
+	lier une arme au perso, decx decy angle
+	class perso -> recuperer les coordonnées de la souris et utiliser pour changer angle de l'arme
+	lier le portail a l'arme
+	Repenser totalement le portail pour faciliter le codage des collisions
+
+Utils :
+X	charger les cubes dans loadlevel
+
+Collision :
+X	collision entre le cube et les blocs
+X	collision entre le cube et les cubes
+X	collision entre le cube et le bouton
+	collision avec une portail frame
+X	prendre en compte le cube dans la collision perso
+	prendre en compte les portails dans la collision perso
+	collision entre le joueur et le bouton ????
+	collision entre le portail et les blocs pour voir si on peut ou non faire apparaitre le portail la ou on veut
+
+Multijoueur : 
+	Créer fichier network.py
+	Regarder comment on se debrouille pour ajouter le mode multijoueuer
+	Menu multijoueur  :
+		-> permettre de host un serveur -> créer un serveur https://www.techwithtim.net/tutorials/python-online-game-tutorial/sending-objects/
+										-> ouvrir les ports et recuperer son ip https://stackoverflow.com/questions/55436771/how-to-make-python-automatically-allow-port-through-windows-firewall
+										-> faire 2 threads pour l'host : un thread du jeu , un thread gérant la connexion
+		-> permettre à un joueur de se onnecter a un serveur -> lister les serveurs disponibles https://www.geeksforgeeks.org/port-scanner-using-python/
+															 -> connection des joueuers
+		-> gerer les connections de maniere propre  -> si la partie à commencé les joueurs qui arrivent ne peuvent pas joueur , ils sont en mode spectateur
+													-> des que la level est reset les joueurs prennent leurs roles
+		-> gerer les deconnection de maniere propre -> les clients peuvent se deconnecter et d'autres peuvent se connecter
+													-> quand le serveur ferment tous les clients sont renvoyés au menu principal
+		-> message d'information -> Serveur créer à l'addresse : __:__:__:__
+								 -> Client connecter
+		-> peremttre de voir tous les clients connectes dans le menu pause
+		-> plusieur modes de jeu pour les clients -> joueur1 , joueur2 , joueur3 , spectateur1 , ...  (spectateur sert à gérer les connection initiales)
+												  -> Certaine levels ont plus que un joueurs donc à chaque chargement de level charger les joueurs
+		-> levels pour le multijoueur 	-> creation de levels special concu pour etre resolu a deux
+										-> fonction de chargement de ces levels
+		-> interaction joueur - joueur  -> comment les faires collider : transparent ou solide
+										-> ajouter le fait qu'un joueur puissent voler le cube d'un autre
+										-> comment les portails intéragissent
+
+SPRITES MANQUANT : 
+    NOM             - DESCRIPTION
+    cube            - cube porté par le joueur
+    cube            - cube porté par le joueur
+    cube            - cube porté par le joueur
+    bleu_(anim)     - portail bleu -> animé
+    orange_(anim)   - portail orange -> animé
+    running_(anim)  - perso qui court
+    stand           - perso debout
+
+
+
+
+
+
+
+MVP 5 :
+
+	son
+	musique
+X	levels
+X	menu principale + menu levels
+	sauvegarde
+	ramasser arme 
+X	dialogue
+	key.getpressed()
+	mettre en fenetré

@@ -1,0 +1,248 @@
+{
+    "Comment":"TAILLE DE L'ECRAN 2000x1100",
+    "level1":{
+        "dialogue":[{
+               "dialogue_gentil_1": "En effet, Aperture Science recompense ses",
+                "dialogue_gentil_2": "sujets avec un gateau! Ne vous inquietez pas",
+                "dialogue_gentil_3": "28D774, on en donne aussi aux sujets defaillants.",
+                "dialogue_villain_1": "Voici le Cube de Voyage, il vous accompagnera" ,
+                "dialogue_villain_2": "jusqu' a votre desinte#b75{k ?8@ !",
+                "dialogue_villain_3": "Hum. Je veux dire jusqu' a votre gateau. " 
+                
+                }]
+    ,
+        "info":{"gravity":1000,"porte":{"x":1800,"y":950,"sx":100,"sy":100}},
+        "perso":{"x":100,"y":950,"sx":40,"sy":95},
+        "blocs":[{"x":1400,"y":800,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":1400,"y":750,"sx":550,"sy":50,"repeat":1,"portal":0},{"x":1050,"y":850,"sx":400,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":2000,"sy":50,"repeat":1,"portal":0},{"x":0,"y":50,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":1950,"y":50,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":50,"y":1050,"sx":1900,"sy":50,"repeat":1,"portal":0}],
+        "boutons":[{"x":1800,"y":700,"sx":50,"sy":50},{"x":500,"y":1000,"sx":50,"sy":50},{"x":1200,"y":800,"sx":50,"sy":50}],
+        "cubes":[{"x":300,"y":1000,"sx":30,"sy":30,"m":50},{"x":1100,"y":800,"sx":30,"sy":30,"m":50},{"x":1600,"y":700,"sx":30,"sy":30,"m":50}],
+        "murs":[{"x":1010,"y":870,"sx":40,"sy":180,"condition":[0,1,2]}],
+        "le_villain_commence":{"lvc":1}
+    },
+    "level0":{
+        "dialogue":[{"dialogue_gentil_1": "Bienvenue chez Aperture Science sujet 28D774,",
+                "dialogue_gentil_2": "votre serie de test va commencer dans un",
+                "dialogue_gentil_3": "instant.",
+                "dialogue_villain_1": "Esperons que vous ne soyez pas aussi",
+                "dialogue_villain_2": "decevants que vos predecesseurs...",
+                "dialogue_villain_3": "" 
+                }],
+        "info":{"gravity":1000,"porte":{"x":1750,"y":950,"sx":100,"sy":100}},
+        "perso":{"x":200,"y":950,"sx":40,"sy":95},
+        "blocs":[{"x":0,"y":0,"sx":2000,"sy":50,"repeat":1},{"x":0,"y":50,"sx":50,"sy":1050,"repeat":1},{"x":1950,"y":50,"sx":50,"sy":1050,"repeat":1},{"x":50,"y":1050,"sx":1900,"sy":50,"repeat":1}],
+        "boutons":[{"x":1500,"y":1000,"sx":50,"sy":50}],
+        "cubes":[{"x":675,"y":1000,"sx":30,"sy":30,"m":50}],
+        "murs":[],
+        "le_villain_commence":{"lvc":0}
+    },
+    "level3":{
+        "dialogue":[
+            {
+               "dialogue_villain_1": "Execution surprise dans trois...deux... un !",
+                "dialogue_villain_2": "......",
+                "dialogue_villain_3": "Et non, j'ai tout invente ! Surprise ! " ,
+                "dialogue_gentil_1": "Allons donc... si cela peut vous rassurer, ",
+                "dialogue_gentil_2": "ils vous ont abandonnes ici a la naissance. ",
+                "dialogue_gentil_3": "Je doute qu'ils aient envie de vous rencontrer."
+                
+            }
+                    
+        ]
+    ,
+        "info":{"gravity":1000,"porte":{"x":1800,"y":300,"sx":100,"sy":100}},
+        "perso":{"x":50,"y":950,"sx":40,"sy":95},
+        "blocs":[{"x":0,"y":1050,"sx":2000,"sy":50,"repeat":1},{"x":1150,"y":0,"sx":800,"sy":50,"repeat":1,"portal":0},{"x":1950,"y":0,"sx":50,"sy":400,"repeat":1,"portal":0},{"x":500,"y":50,"sx":50,"sy":500,"repeat":1},{"x":1550,"y":400,"sx":400,"sy":50,"repeat":1},{"x":0,"y":0,"sx":50,"sy":1050,"repeat":1},{"x":50,"y":0,"sx":1100,"sy":50,"repeat":1},{"x":1950,"y":400,"sx":50,"sy":700,"repeat":1}],
+        "boutons":[],
+        "cubes":[],
+        "murs":[],
+        "le_villain_commence":{"lvc":1}
+    },
+    "level2":{
+        "dialogue":[
+            {
+               "dialogue_villain_1": "Ce test est adapte a des sujets humains ages ",
+                "dialogue_villain_2": "entre 8 et 12 ans. Ne vous ridiculisez pas.",
+                "dialogue_villain_3": "" ,
+                "dialogue_gentil_1": "D'apres votre dossier, section capacites",
+                "dialogue_gentil_2": "cognitives, c'est donc une salle de test",
+                "dialogue_gentil_3": "jugee : adequate"
+                
+            }
+                    
+        ]
+    ,
+        "info":{"gravity":1000,"porte":{"x":1800,"y":950,"sx":100,"sy":100}},
+        "perso":{"x":50,"y":950,"sx":40,"sy":95},
+        "blocs":[{"x":0,"y":1050,"sx":2000,"sy":50,"repeat":1},{"x":1200,"y":550,"sx":50,"sy":500,"repeat":1},{"x":0,"y":0,"sx":50,"sy":1050,"repeat":1},{"x":50,"y":0,"sx":1950,"sy":50,"repeat":1},{"x":1950,"y":50,"sx":50,"sy":1000,"repeat":1}],
+        "boutons":[],
+        "cubes":[],
+        "murs":[],
+        "le_villain_commence":{"lvc":1}
+    },
+    "level4":{
+        "dialogue":[{
+            "dialogue_villain_1": "Le centre d'enrichissement vous rappelle par",
+             "dialogue_villain_2": "ailleurs que l'enfer des androides vous attend",
+             "dialogue_villain_3": "si vous manifestez la moindre protestation." ,
+             "dialogue_gentil_1": "Et Le plus important est de realiser les ",
+             "dialogue_gentil_2": "tests avec de l'entrain.",
+             "dialogue_gentil_3": ""
+             
+         }],
+        "info":{"gravity":1000,"porte":{"x":1800,"y":950,"sx":100,"sy":100}},
+        "perso":{"x":50,"y":950,"sx":40,"sy":95},
+        "blocs":[{"x":0,"y":1050,"sx":2000,"sy":50,"repeat":1},{"x":50,"y":700,"sx":250,"sy":50,"repeat":1},{"x":1400,"y":550,"sx":550,"sy":50,"repeat":1},{"x":0,"y":0,"sx":50,"sy":1050,"repeat":1},{"x":50,"y":0,"sx":1950,"sy":50,"repeat":1},{"x":1950,"y":50,"sx":50,"sy":1000,"repeat":1}],
+        "boutons":[{"x":1850,"y":500,"sx":50,"sy":50},{"x":200,"y":650,"sx":50,"sy":50}],
+        "cubes":[{"x":1500,"y":500,"sx":30,"sy":30,"m":50},{"x":1600,"y":500,"sx":30,"sy":30,"m":50}],
+        "murs":[],
+        "le_villain_commence":{"lvc":0}
+    },
+    "level5":{
+        "dialogue":[
+            {
+               "dialogue_villain_1": "Sinon, vous etes sur le point de vous faire",
+                "dialogue_villain_2": "radier sans preavis du Club des Vivants.",
+                "dialogue_villain_3": "Ha. Ha." ,
+                "dialogue_gentil_1": "Sans mentir, le prochain test est du",
+                "dialogue_gentil_2": "gateau !",
+                "dialogue_gentil_3": " Vous allez reussir sans problemes !"
+                
+            }
+                    
+        ]
+    ,
+        "info":{"gravity":1000,"porte":{"x":1400,"y":250,"sx":100,"sy":100}},
+        "perso":{"x":500,"y":650,"sx":40,"sy":95},
+        "blocs":[{"x":500,"y":800,"sx":300,"sy":300,"repeat":1},{"x":800,"y":1000,"sx":300,"sy":100,"repeat":1},{"x":1100,"y":350,"sx":400,"sy":750,"repeat":1}],
+        "boutons":[],
+        "cubes":[],
+        "murs":[],
+        "le_villain_commence":{"lvc":0}
+    },
+"level10":{
+    "dialogue":[
+        {
+           "dialogue_villain_1": "Voila enfin le dernier test qui vous",
+            "dialogue_villain_2": "a ete assigne. Nous allons bientot",
+            "dialogue_villain_3": "nous quiter... EXECUTION !!" ,
+            "dialogue_gentil_1": "Pour vous rassurer, dites vous que",
+            "dialogue_gentil_2": "l'on se souviendra de vous comme un",
+            "dialogue_gentil_3": "cobaye docile... EXECUTION !!"
+            
+        }
+                
+    ]
+,
+    "info":{"gravity":1000,"porte":{"x":1200,"y":950,"sx":100,"sy":100}},
+    "perso":{"x":50,"y":950,"sx":40,"sy":95},
+    "blocs":[{"x":1000,"y":550,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":200,"y":800,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":250,"y":500,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":500,"y":300,"sx":200,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":2000,"sy":50,"repeat":1,"portal":0},{"x":0,"y":50,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":50,"y":1050,"sx":300,"sy":50,"repeat":1,"portal":0},{"x":500,"y":1050,"sx":1500,"sy":50,"repeat":1,"portal":0},{"x":1950,"y":50,"sx":50,"sy":1000,"repeat":1,"portal":0},{"x":50,"y":820,"sx":150,"sy":50,"repeat":1,"portal":0},{"x":50,"y":300,"sx":250,"sy":50,"repeat":1,"portal":0},{"x":600,"y":550,"sx":150,"sy":50,"repeat":1,"portal":0},{"x":700,"y":400,"sx":50,"sy":150,"repeat":1,"portal":0},{"x":1200,"y":50,"sx":100,"sy":200,"repeat":1,"portal":0},{"x":1200,"y":350,"sx":100,"sy":350,"repeat":1,"portal":0},{"x":1000,"y":600,"sx":200,"sy":100,"repeat":1,"portal":0},{"x":1000,"y":700,"sx":100,"sy":450,"repeat":1,"portal":0},{"x":1750,"y":350,"sx":200,"sy":50,"repeat":1,"portal":0},{"x":1750,"y":900,"sx":50,"sy":150,"repeat":1,"portal":0},{"x":1700,"y":950,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":1450,"y":950,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":1850,"y":550,"sx":100,"sy":50,"repeat":1,"portal":0},{"x":820,"y":330,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":350,"y":1050,"sx":150,"sy":50,"repeat":1},{"x":300,"y":300,"sx":200,"sy":50,"repeat":1},{"x":250,"y":350,"sx":50,"sy":150,"repeat":1},{"x":1150,"y":500,"sx":50,"sy":50,"repeat":1},{"x":1800,"y":250,"sx":50,"sy":100,"repeat":1},{"x":1750,"y":800,"sx":50,"sy":100,"repeat":1},{"x":1100,"y":900,"sx":50,"sy":150,"repeat":1}],
+    "boutons":[{"x":100,"y":770,"sx":50,"sy":50},{"x":630,"y":500,"sx":50,"sy":50},{"x":180,"y":250,"sx":50,"sy":50},{"x":1575,"y":1000,"sx":50,"sy":50},{"x":1875,"y":500,"sx":50,"sy":50}],
+    "cubes":[{"x":600,"y":1000,"sx":30,"sy":30,"m":50},{"x":700,"y":1000,"sx":30,"sy":30,"m":50},{"x":800,"y":1000,"sx":30,"sy":30,"m":50},{"x":1120,"y":550,"sx":30,"sy":30,"m":50},{"x":1585,"y":960,"sx":30,"sy":30,"m":50}],
+    "murs":[{"x":1050,"y":400,"sx":40,"sy":200,"condition":[0]},{"x":1230,"y":260,"sx":40,"sy":80,"condition":[1,2]},{"x":1450,"y":900,"sx":300,"sy":40,"condition":[1]},{"x":1750,"y":750,"sx":200,"sy":40,"condition":[3]}],
+    "le_villain_commence":{"lvc":0}
+},
+"level9":{
+    "dialogue":[
+        {
+           "dialogue_villain_1": "Saviez-vous que vous pouvez en profiter",
+            "dialogue_villain_2": "pour realiser un don d'organes vitaux au  ",
+            "dialogue_villain_3": "fond de soutien d'Aperture Science ?" ,
+            "dialogue_gentil_1": "Le centre d'enrichissement nie toute",
+            "dialogue_gentil_2": "responsabilite quant a votre",
+            "dialogue_gentil_3": "emprisonnement dans cette salle."
+            
+        }
+                
+    ]
+,
+"info":{"gravity":1200,"porte":{"x":1850,"y":300,"sx":100,"sy":100}},
+"perso":{"x":100,"y":0,"sx":40,"sy":100},
+"blocs":[{"x":50,"y":250,"sx":200,"sy":50,"repeat":1},{"x":100,"y":0,"sx":150,"sy":50,"repeat":1},{"x":200,"y":300,"sx":50,"sy":350,"repeat":1},{"x":200,"y":900,"sx":50,"sy":150,"repeat":1},{"x":450,"y":0,"sx":650,"sy":50,"repeat":1},{"x":550,"y":250,"sx":50,"sy":150,"repeat":1},{"x":500,"y":350,"sx":50,"sy":50,"repeat":1},{"x":1100,"y":250,"sx":100,"sy":100,"repeat":1},{"x":1350,"y":0,"sx":100,"sy":150,"repeat":1},{"x":950,"y":1050,"sx":100,"sy":50,"repeat":1},{"x":1350,"y":1050,"sx":150,"sy":50,"repeat":1},{"x":50,"y":0,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":50,"sy":1100,"repeat":1,"portal":0},{"x":50,"y":300,"sx":150,"sy":800,"repeat":1,"portal":0},{"x":200,"y":1050,"sx":750,"sy":50,"repeat":1,"portal":0},{"x":1050,"y":1050,"sx":300,"sy":50,"repeat":1,"portal":0},{"x":1500,"y":1050,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":1550,"y":400,"sx":450,"sy":700,"repeat":1,"portal":0},{"x":250,"y":650,"sx":100,"sy":50,"repeat":1,"portal":0},{"x":1950,"y":0,"sx":50,"sy":400,"repeat":1,"portal":0},{"x":250,"y":0,"sx":200,"sy":50,"repeat":1,"portal":0},{"x":450,"y":100,"sx":50,"sy":300,"repeat":1,"portal":0},{"x":500,"y":150,"sx":50,"sy":200,"repeat":1,"portal":0},{"x":550,"y":150,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":650,"y":450,"sx":50,"sy":250,"repeat":1,"portal":0},{"x":700,"y":600,"sx":400,"sy":100,"repeat":1,"portal":0},{"x":1100,"y":350,"sx":100,"sy":400,"repeat":1,"portal":0},{"x":1100,"y":0,"sx":100,"sy":250,"repeat":1,"portal":0},{"x":1200,"y":0,"sx":150,"sy":150,"repeat":1,"portal":0},{"x":1450,"y":0,"sx":500,"sy":150,"repeat":1,"portal":0},{"x":200,"y":650,"sx":50,"sy":250,"repeat":1,"portal":0}],
+"boutons":[{"x":400,"y":1000,"sx":50,"sy":50},{"x":850,"y":1000,"sx":50,"sy":50,"repeat":1},{"x":900,"y":550,"sx":50,"sy":50,"repeat":1},{"x":1300,"y":1000,"sx":50,"sy":50,"repeat":1}],
+"cubes":[{"x":1800,"y":300,"sx":30,"sy":30,"m":50},{"x":200,"y":200,"sx":30,"sy":30,"m":50},{"x":550,"y":100,"sx":30,"sy":30,"m":50},{"x":1575,"y":350,"sx":30,"sy":30,"m":50}],
+"murs":[{"x":750,"y":800,"sx":40,"sy":250,"condition":[0]},{"x":1130,"y":850,"sx":40,"sy":200,"condition":[2]},{"x":700,"y":470,"sx":400,"sy":40,"condition":[1]},{"x":1200,"y":560,"sx":350,"sy":40,"condition":[3]},{"x":1710,"y":200,"sx":40,"sy":200,"condition":[0]}],
+"le_villain_commence":{"lvc":0}},
+"level7":{
+    "dialogue":[
+        {
+           "dialogue_villain_1": "Vous n'aurez plus jamais a vous soucier",
+            "dialogue_villain_2": "de partir.",
+            "dialogue_villain_3": "Croyez-moi !" ,
+            "dialogue_gentil_1": "La loi federale m'impose de vous avertir que",
+            "dialogue_gentil_2": "la prochaine salle de test a ... une super deco." ,
+            "dialogue_gentil_3": "La est la gloire retrouvee d'Aperture ! "
+            
+        }
+                
+    ]
+,
+"info":{"gravity":1000,"porte":{"x":190,"y":950,"sx":100,"sy":100}},
+"perso":{"x":350,"y":100,"sx":40,"sy":95},
+"blocs":[{"x":0,"y":50,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":0,"y":0,"sx":2000,"sy":50,"repeat":1,"portal":0},{"x":1300,"y":1050,"sx":700,"sy":50,"repeat":1,"portal":0},{"x":1950,"y":50,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":0,"y":1050,"sx":700,"sy":50,"repeat":1,"portal":0},{"x":700,"y":1050,"sx":600,"sy":50,"repeat":1},{"x":350,"y":250,"sx":50,"sy":100,"repeat":1},{"x":300,"y":50,"sx":150,"sy":50,"repeat":1},{"x":1700,"y":400,"sx":50,"sy":50,"repeat":1,"portal":0}],
+"boutons":[{"x":400,"y":1000,"sx":50,"sy":50}],
+"cubes":[{"x":1700,"y":350,"sx":30,"sy":30,"m":50}],
+"murs":[],
+"le_villain_commence":{"lvc":0}
+},
+"level6":{
+    "dialogue":
+        [{
+           "dialogue_villain_1": "Si jamais les humains vous font peur : ne",
+            "dialogue_villain_2": "craignez rien, ce ne sont pas tous des monstres.",
+            "dialogue_villain_3": " La plupart sont des cobayes ordinaires." ,
+            "dialogue_gentil_1": "Je dirai que le ratio monstre/cobaye ordinaire",
+            "dialogue_gentil_2": "est d'environ... une sur 1 million. Vous etes",
+            "dialogue_gentil_3": " donc un specimen rare, 28D774 ! "
+            }],
+"info":{"gravity":1000,"porte":{"x":1750,"y":950,"sx":100,"sy":100}},
+"perso":{"x":200,"y":950,"sx":40,"sy":95},
+"blocs":[{"x":1000,"y":550,"sx":50,"sy":500,"repeat":1,"portal":0},{"x":50,"y":400,"sx":200,"sy":50,"repeat":1,"portal":0},{"x":0,"y":50,"sx":50,"sy":350,"repeat":1},{"x":500,"y":1050,"sx":200,"sy":50,"repeat":1},{"x":700,"y":1050,"sx":1300,"sy":50,"repeat":1,"portal":0},{"x":700,"y":0,"sx":1300,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":2000,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":500,"sy":50,"repeat":1,"portal":0},{"x":0,"y":400,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":1950,"y":50,"sx":50,"sy":1050,"repeat":1,"portal":0},{"x":50,"y":1050,"sx":450,"sy":50,"repeat":1,"portal":0}],
+"boutons":[{"x":1500,"y":1000,"sx":50,"sy":50}],
+"cubes":[{"x":145,"y":350,"sx":30,"sy":30,"m":50}],
+"murs":[],
+"le_villain_commence":{"lvc":1}
+},
+"level8":{
+    "dialogue":[
+        {
+           "dialogue_villain_1": "...car son contact provoque un arret cardiaque. ",
+            "dialogue_villain_2": "Votre coeur etant de pierre, vous etes",
+            "dialogue_villain_3": " donc immunise." ,
+            "dialogue_gentil_1": "Pendant nos recherches, nous avons decouvert un",
+            "dialogue_gentil_2": " nouvel element de test tres interessant.",
+            "dialogue_gentil_3": " Il n'a jamais ete utilise sur les humains..."
+            
+        }
+                
+    ]
+,
+"info":{"gravity":1000,"porte":{"x":120,"y":800,"sx":100,"sy":100}},
+"perso":{"x":200,"y":250,"sx":40,"sy":95},
+"blocs":[{"x":1000,"y":650,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":1450,"y":550,"sx":200,"sy":100,"repeat":1,"portal":0},{"x":1050,"y":500,"sx":400,"sy":150,"repeat":1,"portal":0},{"x":950,"y":400,"sx":100,"sy":250,"repeat":1,"portal":0},{"x":850,"y":400,"sx":50,"sy":150,"repeat":1,"portal":0},{"x":900,"y":400,"sx":50,"sy":350,"repeat":1,"portal":0},{"x":950,"y":700,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":850,"y":400,"sx":50,"sy":150,"repeat":1,"portal":0},{"x":1000,"y":700,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":1330,"y":650,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":1330,"y":900,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":800,"y":800,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":830,"y":750,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":1450,"y":100,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":1250,"y":100,"sx":50,"sy":100,"repeat":1,"portal":0},{"x":100,"y":900,"sx":150,"sy":100,"repeat":1,"portal":0},{"x":100,"y":350,"sx":600,"sy":200,"repeat":1,"portal":0},{"x":50,"y":350,"sx":50,"sy":650,"repeat":1,"portal":0},{"x":0,"y":100,"sx":50,"sy":900,"repeat":1,"portal":0},{"x":850,"y":0,"sx":150,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":850,"sy":100,"repeat":1,"portal":0},{"x":1000,"y":0,"sx":950,"sy":100,"repeat":1,"portal":0},{"x":1900,"y":100,"sx":50,"sy":50,"repeat":1,"portal":0},{"x":1800,"y":250,"sx":100,"sy":50,"repeat":1,"portal":0},{"x":1900,"y":250,"sx":50,"sy":600,"repeat":1,"portal":0},{"x":1750,"y":900,"sx":250,"sy":50,"repeat":1,"portal":0},{"x":1950,"y":0,"sx":50,"sy":850,"repeat":1,"portal":0},{"x":1850,"y":850,"sx":150,"sy":50,"repeat":1,"portal":0},{"x":0,"y":1000,"sx":2000,"sy":100,"repeat":1,"portal":0},{"x":1700,"y":950,"sx":300,"sy":50,"repeat":1,"portal":0},{"x":50,"y":100,"sx":50,"sy":250,"repeat":1},{"x":850,"y":50,"sx":150,"sy":50,"repeat":1},{"x":1900,"y":150,"sx":50,"sy":100,"repeat":1},{"x":250,"y":900,"sx":50,"sy":100,"repeat":1},{"x":850,"y":800,"sx":200,"sy":50,"repeat":1}],
+"boutons":[{"x":425,"y":950,"sx":50,"sy":50},{"x":575,"y":950,"sx":50,"sy":50},{"x":450,"y":300,"sx":50,"sy":50}],
+"cubes":[{"x":960,"y":660,"sx":30,"sy":30,"m":50},{"x":1840,"y":210,"sx":30,"sy":30,"m":50},{"x":1360,"y":130,"sx":30,"sy":30,"m":50},{"x":950,"y":760,"sx":30,"sy":30,"m":50}],
+"murs":[{"x":700,"y":400,"sx":150,"sy":40,"condition":[1]},{"x":1335,"y":750,"sx":40,"sy":150,"condition":[2]},{"x":1300,"y":160,"sx":150,"sy":40,"condition":[2]}],
+"le_villain_commence":{"lvc":0}},
+
+"level11":{"dialogue":[
+    {
+       "dialogue_villain_1": "En effet, notre patisserie semble contenir",
+        "dialogue_villain_2": "des traces de : cambouis, cesium 137,",
+        "dialogue_villain_3": "restes organiques du cobaye 71F608." ,
+        "dialogue_gentil_1": "Je vous l'avais promis : voila votre gateau !! ",
+        "dialogue_gentil_2": "Cependant, ce gateau ne semble pas satisfaire",
+        "dialogue_gentil_3": "votre situation allergene."
+        
+    }
+            
+]
+,
+    "info":{"gravity":1000,"porte":{"x":1700,"y":850,"sx":100,"sy":100}},
+    "perso":{"x":200,"y":850,"sx":40,"sy":95},
+    "blocs":[{"x":1850,"y":150,"sx":50,"sy":800,"repeat":1},{"x":100,"y":150,"sx":50,"sy":800,"repeat":1},{"x":100,"y":950,"sx":1800,"sy":50,"repeat":1},{"x":100,"y":100,"sx":1800,"sy":50,"repeat":1},{"x":50,"y":50,"sx":1900,"sy":50,"repeat":1,"portal":0},{"x":1900,"y":100,"sx":50,"sy":900,"repeat":1,"portal":0},{"x":50,"y":100,"sx":50,"sy":900,"repeat":1,"portal":0},{"x":50,"y":1000,"sx":1900,"sy":50,"repeat":1,"portal":0},{"x":50,"y":50,"sx":1900,"sy":50,"repeat":1,"portal":0},{"x":0,"y":0,"sx":2000,"sy":50,"repeat":1},{"x":0,"y":50,"sx":50,"sy":1050,"repeat":1},{"x":1950,"y":50,"sx":50,"sy":1050,"repeat":1},{"x":50,"y":1050,"sx":1900,"sy":50,"repeat":1}],
+    "boutons":[],
+    "cubes":[],
+    "murs":[],
+    "le_villain_commence":{"lvc":0}
+}
+}
